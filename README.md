@@ -16,3 +16,8 @@ This file contains pairs of numbers and letters, we'll be using these to decrypt
 This file is empty by default, this is where the decrypted message will be placed.<br>
 **File Contents:** Empty<br>
 
+<br>
+<br>
+**Example console output:**<br>
+<br>
+![alt text](https://i.gyazo.com/26bbe0d4c5c86fc6259cb3653f32b58e.png)
