@@ -30,7 +30,7 @@ int main()
 
 	int* text_content = (int*)calloc(array_size, sizeof(int)); // Allocating 'array_size' times 'sizeof(int)' bytes of memory, where we'll store our text.txt contents.
 
-	for (int i = 0; i <= array_size; i++) // Now we go through all the numbers in 'text.txt' and store them in our dynamically allocated array of ints.
+	for (int i = 0; i < array_size; i++) // Now we go through all the numbers in 'text.txt' and store them in our dynamically allocated array of ints.
 	{
 		fscanf(fp, "%d", text_content + i); // Remember, we increment the address with `text_content + i`
 	}
